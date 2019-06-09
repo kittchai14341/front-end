@@ -16,7 +16,7 @@ install:
   - npm install
 
 env:
-  - GROUP=kittichai COMMIT="${TRAVIS_COMMIT}" TAG="${TRAVIS_TAG}" REPO=front-end;
+  - GROUP=kittichai14341 COMMIT="${TRAVIS_COMMIT}" TAG="${TRAVIS_TAG}" REPO=front-end;
 
 script:
   - make test
